@@ -5,8 +5,9 @@
 const mysql = require("mysql")
 const Sequelize = require("sequelize")
 
-const db = new Sequelize(process.ENV.DATABASE_URL || "MYSQL URL LOCAL", {
-  dialect: 'mysql',
+const db = new Sequelize(process.ENV.DATABASE_URL || "quantstack", "root", "test", {
+  host: "localhost",
+  dialect: "mysql",
   define: {
     timestamps: false
   }
