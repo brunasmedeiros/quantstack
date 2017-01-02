@@ -1,4 +1,4 @@
-angular.module('landing', [])
+angular.module('level', [])
   .controller('start', () =>{
 
   })
