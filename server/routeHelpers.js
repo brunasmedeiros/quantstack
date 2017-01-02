@@ -6,7 +6,7 @@ const Sequelize = require("sequelize");
 
 // Establishes the connection to the database
 db.authenticate().then(() => {
-  console.log("Connection established");
+  console.log("Connection established with Postgres");
 }).catch((err) => {
   console.log("Unable to connect: ", err);
 });
