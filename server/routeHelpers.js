@@ -11,4 +11,6 @@ db.authenticate().then(() => {
   console.log("Unable to connect: ", err);
 });
 
-module.exports = {}
+module.exports = {
+  // exports functions
+}

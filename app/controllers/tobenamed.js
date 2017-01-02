@@ -1,3 +1,4 @@
-angular.controller('toBeNamed', ($scope) => {
-  
-})
+angular.module('landing', [])
+  .controller('start', () =>{
+
+  })

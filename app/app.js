@@ -1,8 +1,8 @@
-const app = angular.module('quantstack', ['ngRoute']);
+const app = angular.module('quantstack', ['ngRoute', 'landing']);
   
 app.config(($routeProvider) => {
   $routeProvider
     .when('/', {
-      templateUrl: "./landing.html"
+      templateUrl: "app/templates/landing.html"
     })
 })

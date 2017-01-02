@@ -1,6 +1,6 @@
-body {
+/*body {
   background: url("./QUANTSTACK_BG.png") no-repeat top center fixed;
-  /*background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz background-size:cover;
   -o-background-size:cover;
@@ -10,4 +10,4 @@ body {
   width: 100%;
   color: #fff;
   padding-bottom: 70px;
-}
+}*/
