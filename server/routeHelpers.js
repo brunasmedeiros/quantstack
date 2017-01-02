@@ -2,7 +2,7 @@
 
 const db = require("../db/config");
 const Sequelize = require("sequelize");
-// const Score = require("../db/schema").Score;
+const User = require("../db/schema").User;
 
 // Establishes the connection to the database
 db.authenticate().then(() => {
