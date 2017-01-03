@@ -10,16 +10,16 @@ a.level {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  position: relative;
+  /*position: relative;*/
   min-height: 100%;
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   background-color: #262B33;
 }
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
