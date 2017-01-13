@@ -1,4 +1,4 @@
-const app = angular.module('quantstack', ['ngRoute', 'level']);
+const app = angular.module('quantstack', ['ngRoute', 'level', 'basic']);
   
 app.config(($routeProvider, $locationProvider) => {
   $routeProvider
@@ -7,6 +7,12 @@ app.config(($routeProvider, $locationProvider) => {
     })
     .when('/play', {
       templateUrl: "app/templates/level.html"
+    })
+    .when('/about', {
+      templateUrl: "app/templates/about.html"
+    })
+    .when('/basic', {
+      templateUrl: "app/templates/basic.html"
     })
   $locationProvider.html5Mode(true);
 })
